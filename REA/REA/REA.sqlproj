@@ -75,5 +75,6 @@
     <Build Include="stg\Tables\HomesDee.sql" />
     <Build Include="stg\Tables\HomesTim.sql" />
     <Build Include="stg\Tables\HomesLiberato.sql" />
+    <Build Include="stg\Tables\HomesIvy.sql" />
   </ItemGroup>
 </Project>
