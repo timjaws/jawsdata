@@ -72,5 +72,6 @@
     <Build Include="dbo\Stored Procedures\sp_getzip.sql" />
     <Build Include="dbo\Stored Procedures\sp_getall.sql" />
     <Build Include="Security\stg.sql" />
+    <Build Include="stg\Tables\HomesTim.sql" />
   </ItemGroup>
 </Project>
