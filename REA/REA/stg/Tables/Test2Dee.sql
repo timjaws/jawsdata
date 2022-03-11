@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [dbo].[Test2Dee]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY
+	[zip] INT NULL
 )
