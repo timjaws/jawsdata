@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{a6a66e43-0017-4a50-b017-b0ffbdbb037d}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -64,6 +64,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Security\" />
+    <Folder Include="stg\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="stg\Tables\homes.sql" />
@@ -76,5 +77,9 @@
     <Build Include="stg\Tables\HomesTim.sql" />
     <Build Include="stg\Tables\HomesLiberato.sql" />
     <Build Include="stg\Tables\HomesIvy.sql" />
+    <Build Include="stg\Tables\Locations.sql" />
+    <Build Include="stg\Tables\LocationParents.sql" />
+    <Build Include="stg\Tables\lkpZip.sql" />
+    <Build Include="stg\Stored Procedures\GenerateLatLon.sql" />
   </ItemGroup>
 </Project>
