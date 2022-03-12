@@ -12,6 +12,7 @@ select
 --top 10 JsonData, 
 --homes.*
 JSON_VALUE(homes.value, '$.mlsId.value') mlsId
+,JSON_VALUE(homes.value, '$.mlsStatus') mlsStatus
 ,JSON_VALUE(homes.value, '$.price.value') price
 ,JSON_VALUE(homes.value, '$.hoa.value') hoa
 ,JSON_VALUE(homes.value, '$.sqFt.value') sqFt
