@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[TimDelete]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)

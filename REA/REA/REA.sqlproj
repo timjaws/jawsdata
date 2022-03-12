@@ -83,5 +83,6 @@
     <Build Include="stg\Tables\LocationParents.sql" />
     <Build Include="stg\Tables\lkpZip.sql" />
     <Build Include="stg\Stored Procedures\GenerateLatLon.sql" />
+    <Build Include="stg\Tables\TimDelete.sql" />
   </ItemGroup>
 </Project>
