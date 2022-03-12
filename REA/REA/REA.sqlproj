@@ -64,6 +64,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Security\" />
+    <Folder Include="stg\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="stg\Tables\homes.sql" />
@@ -76,5 +77,11 @@
     <Build Include="stg\Tables\HomesTim.sql" />
     <Build Include="stg\Tables\HomesLiberato.sql" />
     <Build Include="stg\Tables\HomesIvy.sql" />
+    <Build Include="stg\Tables\HomesJulie.sql" />
+    <Build Include="stg\Tables\Table1_1.sql" />
+    <Build Include="stg\Tables\Locations.sql" />
+    <Build Include="stg\Tables\LocationParents.sql" />
+    <Build Include="stg\Tables\lkpZip.sql" />
+    <Build Include="stg\Stored Procedures\GenerateLatLon.sql" />
   </ItemGroup>
 </Project>
