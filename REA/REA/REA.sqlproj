@@ -84,5 +84,6 @@
     <Build Include="stg\Tables\lkpZip.sql" />
     <Build Include="stg\Stored Procedures\GenerateLatLon.sql" />
     <Build Include="stg\Tables\Deedelete.sql" />
+    <Build Include="stg\Tables\tracydelete.sql" />
   </ItemGroup>
 </Project>
