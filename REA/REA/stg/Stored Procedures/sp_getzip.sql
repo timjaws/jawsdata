@@ -1,5 +1,5 @@
 ﻿
-create   proc sp_getzip
+create   proc stg.sp_getzip
  @zip nvarchar(5)
 as
 declare @download nvarchar(max)=N'exec xp_cmdshell ''curl https://api-dev-testdata.azurewebsites.net/redfin?key='+@zip+' -o c:\data\'+@zip+'.json'''

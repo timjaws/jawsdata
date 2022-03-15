@@ -6,6 +6,7 @@
     [LonA]  DECIMAL (9, 6) NOT NULL,
     [LatB]  DECIMAL (9, 6) NOT NULL,
     [LonB]  DECIMAL (9, 6) NOT NULL,
+    [Lev] INT NULL, 
     PRIMARY KEY CLUSTERED ([ID] ASC)
 );
 

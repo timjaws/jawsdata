@@ -1,12 +1,4 @@
-﻿USE [REA]
-GO
-/****** Object:  StoredProcedure [stg].[GenerateLatLon]    Script Date: 3/14/2022 6:12:10 PM ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-
-Create   proc [stg].[GenerateLatLon]
+﻿CREATE   proc [stg].[GenerateLocations]
 
 
 @latStart decimal(9,6),
@@ -18,12 +10,13 @@ Create   proc [stg].[GenerateLatLon]
 
 as
 
-
---Exec [stg].[GenerateLatLon] 32, 42.2, -126, -113, 0.04, 2
-----Create above Stored Procedure, populate to table stg.Locations with all location values
-
-
 --truncate table stg.Locations
+--Exec [stg].[GenerateLatLon] 32, 42.2, -126, -113, 0.02, 1
+--Exec [stg].[GenerateLatLon] 32, 42.2, -126, -113, 0.04, 2
+--Exec [stg].[GenerateLatLon] 32, 42.2, -126, -113, 0.08, 3
+--Exec [stg].[GenerateLatLon] 32, 42.2, -126, -113, 0.16, 4
+--Exec [stg].[GenerateLatLon] 32, 42.2, -126, -113, 0.32, 5
+
 
 --Declare @latStart decimal(9,6) = 32
 --Declare @latEnd decimal(9,6) = 42.2
@@ -57,8 +50,3 @@ BEGIN
 	set @RowId = @RowId + 1
 	Print '----------------------------------------------------------'
 END
-
-
-
-
-

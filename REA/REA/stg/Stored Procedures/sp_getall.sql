@@ -1,4 +1,4 @@
-﻿create   proc sp_getall
+﻿create   proc stg.sp_getall
 as
 	exec sp_getzip '90680'
 	exec sp_getzip '91902'
