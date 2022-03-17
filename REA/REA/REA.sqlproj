@@ -62,6 +62,7 @@
     <Folder Include="stg\Tables\" />
     <Folder Include="Security\" />
     <Folder Include="stg\Stored Procedures\" />
+    <Folder Include="stg\Functions\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="stg\Tables\LoadData.sql" />
@@ -76,5 +77,8 @@
     <Build Include="stg\Stored Procedures\GenerateLocationParents.sql" />
     <Build Include="stg\Stored Procedures\PopulateZipLookup.sql" />
     <Build Include="stg\Stored Procedures\GenerateLocations.sql" />
+    <Build Include="stg\Functions\GetSingleBlock.sql" />
+    <Build Include="stg\Functions\GetBlock.sql" />
+    <Build Include="stg\Stored Procedures\PopulateZipData.sql" />
   </ItemGroup>
 </Project>
